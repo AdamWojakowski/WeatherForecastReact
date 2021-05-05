@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+header {
+  font-size: 2em;
+  background-color: hsl(160, 100%, 75%);
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+#menuHeader {
+  background-color: hsl(160, 100%, 75%);
+  padding-bottom: 2em;
+  padding: 1em;
+}
+#menu {
+  background-color: hsl(0, 0%, 71%);
+  padding-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.option {
+  width: 10em;
+  margin-top: 2em;
+  margin-left: 1em;
+  font-size: 0.9em;
+  flex-grow: 1;
+}
+#listImages {
+  display: flex;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+#listNames {
+  padding-top: 2em;
+  font-size: 0.8em;
+  display: flex;
+}
+footer {
+  background-color: hsl(160, 100%, 75%);
+  padding: 3em 3em 3em 1em;
+}
+.dayImage {
+  flex-grow: 1;
+  height: 2em;
+  margin-right: 0.5em;
+  font-size: 2em;
+}
+.dayDates {
+  flex-grow: 1;
+}
+#lineChart {
+  background-color: hsl(0, 0%, 71%);
+}
+#list {
+  background-color: hsl(0, 0%, 71%);
+  display: flex;
+  flex-direction: column;
+}
+#updateButton {
+  width: 10em;
+  margin-top: 2em;
+  margin-left: 1em;
+  font-size: 0.9em;
+}
+#update {
+  background-color: hsl(0, 0%, 71%);
+}
+form {
+  margin-left: 1em;
+}
+button:hover,
+button.selected {
+  background-color: hsla(160, 100%, 75%, 0.685);
+}
+input {
+  width: 10em;
+}
+#updateButton {
+  width: 10em;
+}
+
+@media (min-width: 785px) {
+  header {
+    font-size: 2.4em;
+  }
+  .dayImage {
+    width: 2em;
+    height: 2em;
+    font-size: 2.3em;
+  }
+  #listNames {
+    font-size: 1em;
+  }
+  input {
+    width: 13.3em;
+  }
+  .option {
+    width: 13em;
+  }
+  #updateButton {
+    width: 13em;
+    height: 3em;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    margin: 0px 150px;
+  }
+}
+@media (min-width: 1700px) {
+  .container {
+    margin: 0px 200px;
+  }
+}

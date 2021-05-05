@@ -1,0 +1,36 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "menuHeader header"
+    "menu       lineChart"
+    "update       list"
+    "footer     footer";
+  grid-template-rows: min-content auto auto min-content;
+  grid-template-columns: 10em auto;
+}
+header {
+  grid-area: header;
+}
+#menu {
+  grid-area: menu;
+}
+#menuHeader {
+  grid-area: menuHeader;
+}
+#list {
+  grid-area: list;
+}
+footer {
+  grid-area: footer;
+}
+#lineChart {
+  grid-area: lineChart;
+}
+#update {
+  grid-area: update;
+}
+@media (min-width: 785px) {
+  .container {
+    grid-template-columns: 13em auto auto auto auto auto;
+  }
+}

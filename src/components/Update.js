@@ -3,7 +3,7 @@ import moment from 'moment';
 
 export let Update = props => {
   let separateDays = (obj) => {
-    const groupedByDay = {}  
+    const groupedByDay = {}
 
     obj.list.forEach((el) => {
       const date = moment(el.dt*1000).format('YYYY-MM-DD')

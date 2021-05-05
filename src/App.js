@@ -31,7 +31,6 @@ let App = () => {
       <List forecast={forecast} days={days} selectedDay={selectedDay} onDaySelect={setSelectedDay} />
       <Update setForecast={setForecast} />
       <footer>
-        FOOTER PLACEHOLDER
       </footer>
     </div>
   );

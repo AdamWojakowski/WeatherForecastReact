@@ -1539,12 +1539,9 @@ let App = () => {
       <List setDayOn={setDayOn} icons={icons} dayOn={dayOn} forecast={forecast} dayDates={dayDates}/>
       <Update forecast={forecast} setForecast={setForecast}/>
       <footer>
-        FOOTER PLACEHOLDER
       </footer>
     </div>
   );
 }
 
 export default App;
-
-// Do ściągania prognozy API KEY: c2bde5f8da8fdba0fb48918b14c88352
